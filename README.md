@@ -21,7 +21,7 @@ Before running the application, ensure you have the following:
    ```sh
    git clone <repository_url>
    cd <repository_directory>
-```
+    ```
 ## Installation
 
 ### Install the dependencies:
