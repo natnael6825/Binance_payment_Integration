@@ -27,4 +27,4 @@ Before running the application, ensure you have the following:
 ### Install the dependencies:
 
 ```sh
-npm install express firebase-admin axios crypto dotenv request fs
+npm i
