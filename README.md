@@ -21,12 +21,13 @@ Before running the application, ensure you have the following:
    ```sh
    git clone <repository_url>
    cd <repository_directory>
+```
 Install the dependencies:
 
-```sh
-npm install express firebase-admin axios crypto dotenv request fs
-Create an .env file in the root directory and add your environment variables:
-
+    ```sh
+    npm install express firebase-admin axios crypto dotenv request fs
+    Create an .env file in the root directory and add your environment variables:
+```
 ```env
 PORT=3000
 BINANCE_API_KEY=your_binance_api_key
