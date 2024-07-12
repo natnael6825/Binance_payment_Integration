@@ -23,13 +23,11 @@ Before running the application, ensure you have the following:
    cd <repository_directory>
 Install the dependencies:
 
-sh
-
+```sh
 npm install express firebase-admin axios crypto dotenv request fs
 Create an .env file in the root directory and add your environment variables:
 
-env
-
+```env
 PORT=3000
 BINANCE_API_KEY=your_binance_api_key
 BINANCE_API_SECRET=your_binance_api_secret
@@ -38,7 +36,7 @@ Place your Firebase service account JSON file in the key directory and name it k
 Running the Application
 Start the server:
 
-sh
+```sh
 
 node app.js
 The application will run on the port specified in your .env file or default to port 3000.
@@ -51,7 +49,7 @@ Description: Creates a new order on Binance Pay and saves the transaction detail
 
 Request Body:
 
-json
+```json
 
 {
   "amount": "number",
@@ -68,7 +66,7 @@ Description: Checks the payment status of an order and updates the transaction s
 
 Request Body:
 
-json
+```json
 
 {
   "prepayId": "string",
