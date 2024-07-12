@@ -21,12 +21,11 @@ Before running the application, ensure you have the following:
    ```sh
    git clone <repository_url>
    cd <repository_directory>
-
 Install the dependencies:
 
-    ```sh
-    npm install 
-
+sh
+Copy code
+npm install express firebase-admin axios crypto dotenv request fs
 Create an .env file in the root directory and add your environment variables:
 
 env
@@ -70,7 +69,7 @@ Description: Checks the payment status of an order and updates the transaction s
 Request Body:
 
 json
-
+Copy code
 {
   "prepayId": "string",
   "userId": "string"
@@ -104,11 +103,3 @@ Ensure that your Firebase service account JSON file and Binance API credentials 
 
 Error Handling
 The application handles errors gracefully by logging them and returning appropriate error messages to the client.
-
-Conclusion
-This project demonstrates how to integrate with the Binance Pay API using Node.js and Express, along with Firebase Firestore for storing transaction data. Modify the code as needed to fit your specific requirements.
-
-vbnet
-Copy code
-
-This README file provides detailed information on how to set up, run, and use the application
