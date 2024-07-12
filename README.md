@@ -21,11 +21,12 @@ Before running the application, ensure you have the following:
    ```sh
    git clone <repository_url>
    cd <repository_directory>
+
 Install the dependencies:
 
-sh
-Copy code
-npm install
+    ```sh
+    npm install 
+
 Create an .env file in the root directory and add your environment variables:
 
 env
